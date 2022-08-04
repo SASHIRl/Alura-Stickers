@@ -1,7 +1,6 @@
 import java.io.InputStream;
 import java.net.URL;
 import java.util.List;
-import java.util.Map;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -10,8 +9,11 @@ public class App {
         //String url = "https://imdb-api.com/en/API/Top250Movies/k_4kp3ws1j";
         //ExtratorDeConteudo extrator = new ExtratorDeConteudoDoImdb();
 
-        String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
-        ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
+        //String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14";
+        //ExtratorDeConteudoDaNasa extrator = new ExtratorDeConteudoDaNasa();
+
+        String url = "http://localhost:8080/linguagens";
+        ExtratorDeConteudoLocalHost extrator = new ExtratorDeConteudoLocalHost();
 
         var http = new ClienteHttp();
         String json = http.buscaDados(url);
@@ -22,7 +24,7 @@ public class App {
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 2; i++) {
             
             Conteudo conteudo = conteudos.get(i);
 
