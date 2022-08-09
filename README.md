@@ -10,7 +10,9 @@ Ferramenta feita em Java para gerar stickers com mensagens em imagens, projetada
 ![AluraStickers1](https://user-images.githubusercontent.com/49219844/183561881-17d69c76-17d6-49d6-b77d-feb61a7d73a1.png)
 
 Demonstração da ferramenta consumindo a API que desenvolvi https://sashiri-linguagens-api.herokuapp.com/linguagens
+
 Ferramenta foi projetada para consumir os dados da API da Nasa: https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=2022-06-12&end_date=2022-06-14
+
 Também é possível criar os stickers consumindo a API do Imdb: https://imdb-api.com/en/API/Top250Movies/k_4kp3ws1j
 
 ## Link para acesso à API
