@@ -26,11 +26,7 @@ Caso seja necessário utilizar outra API deve ser feita as devidas alterações 
 ## ✔️ Técnicas e tecnologias utilizadas para o desenvolvimento
 
 - ``Java 8``
-- ``Spring``
-- ``MongoDB``
-- ``Postman``
-- ``Maven``
-- ``Heroku``
+- ``Programação orientada a objetos``
 
 <p align="center">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
