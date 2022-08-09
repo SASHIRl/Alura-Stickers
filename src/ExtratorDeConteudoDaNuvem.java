@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ExtratorDeConteudoLocalHost implements ExtratorDeConteudo {
+public class ExtratorDeConteudoDaNuvem implements ExtratorDeConteudo {
     public List<Conteudo> extraiConteudos(String json) {
 
         // Pegar apenas os dados que interessam (título, poster, classificação)
