@@ -3,7 +3,7 @@
 ![Imagem com texto "Imersão Java" 'imersão' escrita de cor branca e Java escrita com cor laranja, fundo da imagem azul, apenas o fundo da palavra Java é branco.](https://user-images.githubusercontent.com/49219844/183550548-5e4dca63-b302-4c2c-ac96-fb37c325ce7e.png)
 
 ℹ️
-Ferramenta feita em Java para gerar stickers com mensagens em imagens, projetada para consumir os dados em JSON da API https://github.com/SASHIRl/linguagens-api
+Ferramenta feita em Java para gerar stickers com mensagens em imagens, projetada para consumir os dados em JSON da API criada no projeto: https://github.com/SASHIRl/linguagens-api
 
 ## :hammer: Demonstração da Aplicação
 
